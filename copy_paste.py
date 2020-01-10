@@ -22,3 +22,4 @@ while True:
             last_paste = paste
         except Exception as e:
             sys.stderr.write("Error: {}".format(e))
+            break
